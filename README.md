@@ -19,8 +19,7 @@
 - Repository có file `README.md` dùng làm báo cáo tổng hợp
 
 #### 3.2. Trải nghiệm kiểm thử giao diện với CantUnsee
-- Truy cập website:  
-  👉 https://cantunsee.space/
+- Truy cập website: https://cantunsee.space/
 - Thực hiện các bài kiểm tra phân biệt màu sắc và khả năng nhận diện giao diện
 - Mục tiêu: đạt **điểm số cao nhất có thể**
 
@@ -28,7 +27,7 @@
 - Ảnh chụp màn hình kết quả làm bài trên CantUnsee
 - Ảnh có dấu hiệu cá nhân (ví dụ: đang đăng nhập Chrome)
 
-📌 **Hình ảnh minh chứng:**
+**Hình ảnh minh chứng:**
 
 ![Kết quả kiểm tra UI trên cantunsee.space](Báo%20cáo%20cantunsee.jpg)
 
