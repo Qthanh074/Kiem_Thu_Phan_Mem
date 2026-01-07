@@ -2,9 +2,13 @@
 
 ### Thông tin sinh viên
 **Họ và tên:** Đào Quang Thành
+
 **MSSV:** BIT230384
+
 **Email:** daoquangthanh0704@gmail.com
+
 **Môn học:** Kiểm thử phần mềm
+
 **Giảng viên:** Trương Anh Hoàng
 
 ### Mục tiêu bài thực hành
