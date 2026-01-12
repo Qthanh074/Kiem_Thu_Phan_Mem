@@ -12,7 +12,7 @@
 **Giảng viên:** Trương Anh Hoàng
 
 ### Mục tiêu bài thực hành
-Làm quen với GitHub và cách quản lý bài thực hành bằng repository
+Làm quen với GitHub và cách quản lý bài thực hành bằng kho lưu trữ
 
 Trải nghiệm và đánh giá chất lượng giao diện phần mềm
 
