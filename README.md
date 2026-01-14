@@ -30,7 +30,7 @@
 
 ### Minh chứng kết quả
 
-* Ảnh chụp màn hình kết quả làm bài trên CantUnsee.
+* Ảnh chụp màn hình kết quả làm bài trên Can't Unsee.
 * Ảnh có dấu hiệu cá nhân (ví dụ: đang đăng nhập Chrome) để chứng minh tính xác thực.
 
 **Hình ảnh minh chứng:**
