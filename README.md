@@ -37,7 +37,7 @@
 ![Kết quả kiểm tra UI trên cantunsee.space](Báo%20cáo%20cantunsee.jpg)
 
 
-## PHẦN 2 – BÀI THỰC HÀNH TUẦN 2: KIỂM THỬ UNIT TEST VỚI JUNIT
+## PHẦN 2 – BÀI THỰC HÀNH TUẦN 2: KIỂM THỬ ĐƠN VỊ VỚI JUNIT
 
 ### Tên bài tập
 
@@ -45,7 +45,7 @@
 
 ### Mô tả bài tập
 
-Dự án này là bài tập thực hành về Kiểm thử phần mềm (Software Testing), tập trung vào việc viết **Unit Test** cho mã nguồn Java bằng thư viện **JUnit**.
+Dự án này là bài tập thực hành về Kiểm thử phần mềm (Software Testing), tập trung vào việc viết **kiểm thử đơn vị** cho mã nguồn Java bằng thư viện **JUnit**.
 
 Chương trình cung cấp lớp `StudentAnalyzer` để xử lý danh sách điểm số của học sinh với các chức năng chính:
 
