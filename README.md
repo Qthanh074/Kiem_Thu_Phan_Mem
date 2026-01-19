@@ -72,3 +72,37 @@ unit-test/
 │   └── StudentAnalyzerTest.java  # Mã nguồn kiểm thử (Unit Tests)
 ├── README.md                     # Tài liệu hướng dẫn
 ```
+## PHẦN 3 – BÀI THỰC HÀNH TUẦN 3: KIỂM THỬ TỰ ĐỘNG END-TO-END VỚI CYPRESS
+
+### Mục tiêu bài thực hành
+
+* Cài đặt và cấu hình môi trường kiểm thử tự động với **Cypress**.
+* Hiểu và thực hành viết kịch bản kiểm thử End-to-End (E2E).
+* Thực hiện kiểm thử trên trang web mẫu: [https://www.saucedemo.com](https://www.saucedemo.com).
+
+### Mô tả bài tập
+
+Viết mã kiểm thử tự động cho quy trình mua hàng trên trang web giả lập cửa hàng trực tuyến SauceDemo. Bài tập bao gồm các kịch bản cơ bản (đăng nhập, thêm giỏ hàng) và các kịch bản nâng cao (xóa sản phẩm, quy trình thanh toán).
+
+### Các kịch bản kiểm thử (Test Scenarios)
+
+Đã thực hiện 2 tệp kiểm thử chính nằm trong thư mục `cypress/e2e/`:
+
+#### 1. Kiểm thử Đăng nhập (`login_spec.cy.js`)
+
+* **Test Case 1:** Đăng nhập thành công với tài khoản hợp lệ (`standard_user`).
+* **Test Case 2:** Kiểm tra hiển thị thông báo lỗi khi nhập sai tài khoản/mật khẩu.
+
+#### 2. Kiểm thử Giỏ hàng & Thanh toán (`cart_spec.cy.js`)
+
+* **Test Case 3:** Thêm sản phẩm vào giỏ hàng và kiểm tra số lượng hiển thị (Badge = 1).
+* **Test Case 4:** Kiểm tra chức năng lọc/sắp xếp sản phẩm theo giá (Low to High).
+* **Test Case 5 (Yêu cầu thêm):** Kiểm tra chức năng xóa sản phẩm khỏi giỏ hàng (Sau khi xóa, Badge biến mất).
+* **Test Case 6 (Yêu cầu thêm):** Kiểm tra toàn bộ quy trình thanh toán (Checkout: Điền thông tin -> Continue -> Finish).
+
+### Minh chứng kết quả
+* **Kết quả kiểm thử Đăng nhập (Login Spec):**
+![Kết quả Login Spec](login_spec.png)
+
+* **Kết quả kiểm thử Giỏ hàng (Cart Spec):**
+![Kết quả Cart Spec](cart_spec.png)
