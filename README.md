@@ -106,3 +106,30 @@ Viết mã kiểm thử tự động cho quy trình mua hàng trên trang web gi
 
 * **Kết quả kiểm thử Giỏ hàng (Cart Spec):**
 ![Kết quả Cart Spec](cart_spec.png)
+
+## PHẦN 4: BÀI THỰC HÀNH TUẦN 4: KIỂM THỬ HIỆU NĂNG VỚI JMETER
+
+### Mục tiêu bài tập
+Thực hiện kiểm thử hiệu năng website Wikipedia để đánh giá các chỉ số Average Response Time, Error Rate và Throughput.
+
+### Kết quả kiểm thử (Summary Report)
+
+Đây là số liệu thực tế thu được từ công cụ JMeter:
+| Label | # Samples | Average (ms) | Error % | Throughput |
+| :--- | :--- | :--- | :--- | :--- |
+| **Trang chủ** | 16 | 1751 | 0.00% | 1.4/sec |
+| **Software_testing** | 39 | 2582 | 0.00% | 3.1/sec |
+| **Search (Lỗi)** | 59 | 0 | 100.00% | 4.6/sec |
+| **TOTAL** | **125** | **1197** | **47.20%** | **9.8/sec** |
+
+*(Số liệu trích xuất từ bảng kết quả thực tế)*
+
+### Phân tích lỗi 403 Forbidden
+Trong quá trình thực hiện, yêu cầu tìm kiếm (Search) bị lỗi 100% với mã phản hồi **403 Forbidden**. 
+
+**Nguyên nhân:** Wikipedia phát hiện truy cập tự động từ công cụ và kích hoạt cơ chế bảo vệ để tránh quá tải hệ thống (Rate Limiting). Em đã khắc phục một phần bằng cách thêm **User-Agent** trong **HTTP Header Manager** để giả lập trình duyệt, giúp các trang nội dung tĩnh chạy thành công.
+
+### Minh chứng hình ảnh
+![Kết quả JMeter](jmeter/report_summary.png)
+![Kết quả JMeter](jmeter/View_Results_Tree.png)
+
