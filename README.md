@@ -122,7 +122,6 @@ Thực hiện kiểm thử hiệu năng website Wikipedia để đánh giá các
 | **Search (Lỗi)** | 59 | 0 | 100.00% | 4.6/sec |
 | **TOTAL** | **125** | **1197** | **47.20%** | **9.8/sec** |
 
-*(Số liệu trích xuất từ bảng kết quả thực tế)*
 
 ### Phân tích lỗi 403 Forbidden
 Trong quá trình thực hiện, yêu cầu tìm kiếm (Search) bị lỗi 100% với mã phản hồi **403 Forbidden**. 
